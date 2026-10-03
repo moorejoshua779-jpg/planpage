@@ -1,0 +1,66 @@
+/* Body styles */
+body {
+    font-family: 'Lato', sans-serif;
+    background: url('plan-page.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-size: 16px;
+    width: 1180px;
+}
+
+/* Section (Container) styles */
+section {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Article (Pricing Card) styles */
+article {
+    background: #262626;
+    display: inline-block;
+    margin: 80px 20px 0 20px;
+    border: 5px solid #424242;
+    color: #a1a1a1;
+    padding: 20px;
+    width: 280px;
+    vertical-align: top;
+}
+
+/* Article Header */
+article h1 {
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+/* Price Paragraph */
+p.price {
+    font-size: 3em;
+    font-weight: bold;
+    color: #27dcc4;
+}
+
+/* Unordered List styles */
+ul {
+    padding: 0;
+}
+
+/* List Item styles */
+li {
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+/* Button styles */
+button {
+    background: #27dcc4;
+    color: #FFF;
+    padding: 15px 30px;
+    margin: 10px 0;
+    font-size: 0.9em;
+    cursor: pointer;
+    border: none;
+}
+
+/* Button Hover state */
+button:hover {
+    background: #ACACAC;
+}
